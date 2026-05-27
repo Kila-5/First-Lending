@@ -187,3 +187,78 @@ header nav ul li.active::after {
   margin-bottom: 30px;
   width: 100%;
 }
+
+/* next section */
+
+.features {
+  background: url("img/Group\ 1321.png") no-repeat center center fixed;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.features h3, 
+.features p {
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features h3 {
+  font-size: 30px;
+}
+
+.features .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.features .info .block {
+  text-align: center;
+  width: 20%;
+  margin: 30px 2%;
+}
+
+.features .info .block img {
+  margin-bottom: 15px;
+}
+
+/* projects sections */
+
+.projects {
+  padding: 100px 0;
+}
+
+.projects h3 {
+  font-size: 30;
+  text-align: center;
+}
+
+.projects p {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.projects .images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+.projects .see-all{
+  color: #fff;
+  padding: 13px 25px;
+  border-radius: 5px;
+  background: #25211D;
+  float: none;
+  display: block;
+  transition: all 500ms ease;
+  width: 70px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.projects .see-all:hover {
+  transform: scale(1.1);
+}
