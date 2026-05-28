@@ -19,6 +19,7 @@ img {
 .wraper {
   background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(74, 40, 0, 1) 100%);
   width : 100%;
+  overflow-x: hidden;
 }
 .container {
   width: 1500px;
@@ -97,7 +98,7 @@ header nav ul li.active::after {
   line-height: 170%;
   margin: 30px 0;
 }
-.hero--info button {
+.hero--info button, .hero-about .info .btn {
   background: #FA9021;
   color: #fff;
   border-radius: 50px;
@@ -106,7 +107,7 @@ header nav ul li.active::after {
   transition: all 500ms ease;
   font-size: 16px;
 }
-.hero--info button:hover {
+.hero--info button:hover, .hero-about .info .btn:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -321,6 +322,76 @@ header nav ul li.active::after {
   z-index: 2;
   color: #fff;
 }
+
+/*   About page   */
+.hero-about .info {
+  width: 500px;
+  padding: 250px 0;
+}
+
+.hero-about .info h1 {
+  margin-bottom: 16px;
+  font-size: 30px;
+}
+
+.hero-about .info .btn {
+  margin-top: 15px;
+}
+
+.hero-about{
+  position: relative;
+}
+
+.hero-about img{
+  position: absolute;
+  right: -150px;
+  top: 0;
+}
+
+.work {
+  padding: 80px 0;
+}
+.work h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.work .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .blocks .block {
+  border-radius: 10px;
+  width: 25%;
+  padding: 50px 35px;
+  background: #1C140F;
+}
+
+.work .blocks .block h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.work .blocks .block .badge {
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+.work .blocks .block .badge.purpule{
+  background: #b000dc2a;
+}
+
+.work .blocks .block .badge.brown{
+  background: #dc42004b;
+}
+
+.work .blocks .block .badge.green{
+  background: #00dc8b30;
+}
+
+
+
 
 /* Footeer  */
 
