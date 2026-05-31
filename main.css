@@ -325,6 +325,7 @@ header nav ul li.active::after {
 }
 
 /*   About page   */
+
 .hero-about .info {
   width: 500px;
   padding: 250px 0;
@@ -391,12 +392,42 @@ header nav ul li.active::after {
   background: #00dc8b30;
 }
 
+.wraper .two_blocks {
+  background: #1C140F;
+  display: flex;
+  margin-bottom: 250px;
+}
 
+.wraper .two_blocks .text {
+  width: 550px;  
+  margin: 170px 100px;
+  position: absolute;
+  right: 400px;
+}
 
+.two_blocks .text h3 {
+  font-size: 16px;
+  font-weight: 500px;
+  margin: 15px;
+  
+}
 
+.two_blocks .text h1 {
+  font-size: 28px;
+  font-weight: 500px;
+  margin: 15px;
+}
 
+.two_blocks .text p {
+  font-size: 16px;
+  margin: 10px;
+}
 
-
+.two_blocks img {
+  padding-top: 100px;
+  margin-left: 190px;
+  min-width: 500px;
+}
 
 
 
