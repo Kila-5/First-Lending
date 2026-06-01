@@ -395,7 +395,7 @@ header nav ul li.active::after {
 .wraper .two_blocks {
   background: #1C140F;
   display: flex;
-  margin-bottom: 250px;
+  margin-bottom: 10px;
 }
 
 .wraper .two_blocks .text {
@@ -425,9 +425,53 @@ header nav ul li.active::after {
 
 .two_blocks img {
   padding-top: 100px;
-  margin-left: 190px;
+  margin-left: 170px;
   min-width: 500px;
 }
+
+.teams {
+  margin: 100px 170px;
+}
+
+.teams h2 {
+  font-size: 25px;
+  font-weight: 600px;
+  margin: 30px;
+}
+
+.teams .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams .blocks div {
+  border-radius: 20px;
+  background: #1C140F;
+  width: 280px;
+  text-align: center;
+  padding: 35px;
+}
+
+.teams .blocks div h2 {
+  font-size: 19px;
+  font-weight: 600px;
+}
+
+.teams .blocks div p {
+  margin: -20px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.teams .blocks div img {
+  margin-bottom: -30px;
+}
+
+
+
+
+
+
 
 
 
