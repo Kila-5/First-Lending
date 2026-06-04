@@ -467,14 +467,80 @@ header nav ul li.active::after {
   margin-bottom: -30px;
 }
 
+.ender {
+  margin: 150px 170px;
+;
+}
+
+.ender h2 {
+  font-size: 30px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.ender p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 550px;
+}
+
+.ender .loop {
+  background: #1C140F;
+  border-radius: 20px;
+  display: flex;
+  padding: 40px 70px;
+  margin-top: 50px;
+}
+
+.ender .loop .text h2 {
+  font-size: 30px;
+  font-weight: 500px;
+  align-items: center;
+}
+
+.ender .loop .text p {
+  font-size: 16px;
+  justify-content: center;
+}
+
+.ender .loop div {
+  position: relative;
+
+}
+.ender .loop div input {
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  width: 380px;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 30px;
+  position: relative;
+  right: -135px;
+  top: 30px;
+  padding-right: 120px;
+  z-index: 1;
+
+}
 
 
+.ender .loop div button{
+  background: #DC7000;
+  position: relative;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+  float: right;
+  color:  #FFF;
+  padding: 15px 35px;
+  transition: all 500ms ease;
+  z-index: 2;
+  top: 36px;
+}
 
-
-
-
-
-
+.ender .loop div .btn:hover {
+  background: red;
+}
 
 
 
@@ -570,7 +636,9 @@ header nav ul li.active::after {
   background: red;
 }
 
-
+.email .block input::placeholder {
+  color: #898989;
+}
 
 
 
